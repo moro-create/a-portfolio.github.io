@@ -1,0 +1,424 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.top-img{
+  background-image: url(../img/7c74a1b3-2eb3-4f0e-a2f3-458c7319985a.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+  font-family: sans-serif;
+}
+.top-text{
+  color: white;
+  font-weight: bold;
+}
+header i{
+  color: white;
+  margin: 30px;
+}
+.top-space{
+  padding: 30px;
+}
+header h1{
+  font-size: 18px;
+  margin: 15px 0 30px 5%;
+  font-weight: bold;
+}
+header p{
+  font-size: 23px;
+  margin: 15px 5%;
+}
+
+
+/* ___プルダウンメニュー CSS___*/
+.cp_ipselect {
+	position: relative;
+	width: 170px;
+	margin: -15px 0 0 5%;
+	text-align: left;
+}
+/* プルダウンメニュー */
+.cp_sl06 {
+	position: relative;
+	background-color: transparent;
+  color: white;
+	width: 100%;
+	font-size: 23px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid white;
+}
+.cp_sl06:focus {
+	outline: none;
+	border-bottom: 1px solid white;
+}
+.cp_ipselect .cp_sl06 {
+	appearance: none;
+	-webkit-appearance:none
+}
+/*        ▽        */
+.cp_ipselect:after {
+	position: absolute;
+	top: 13px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid white;
+	pointer-events: none;
+}
+/* 下線部(アニメーションあり) */
+.cp_sl06_selectbar:before, .cp_sl06_selectbar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 0;
+	position: absolute;
+	background: white;
+	transition: 0.2s ease all;
+}
+.cp_sl06_selectbar:before {
+	left: 50%;
+}
+.cp_sl06_selectbar:after {
+	right: 50%;
+}
+.cp_sl06:focus ~ .cp_sl06_selectbar:before, .cp_sl06:focus ~ .cp_sl06_selectbar:after {
+	width: 50%;
+}
+/* 参考サイト…https://copypet.jp/797/ */
+
+
+/* ___text入力欄___ */
+.cp_iptxt {
+	position: relative;
+	margin: -15px 0 0 5%;
+}
+.cp_iptxt input[type='text'] {
+	font: 23px sans-serif;
+	box-sizing: border-box;
+  font-weight: bold;
+	width: 300px;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #fff;
+	border: none;
+	border-bottom: 2px solid #fff;
+	background: transparent;
+}
+.ef input[type='text']:focus {
+	border-bottom: 2px solid #fff;
+	outline: none;
+}
+/* 参考サイト...https://copypet.jp/692/ */
+
+
+#price{
+  color: rgb(255, 88, 88);
+}
+header button{
+  margin: 20px 0 0 5%;
+  width: 135px;
+  height: 60px;
+}
+#expected{
+  color: white;
+  font-size: 15px;
+  margin: 0 5%;
+  font-weight: normal;
+}
+
+
+nav{
+  height: 70px;
+  width: 100%;
+}
+/* Navbar　両端に表示するCSS*/
+nav i{
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+nav button{
+  position: absolute;
+  right: 20px;
+}
+/* 参考サイト...https://maku77.github.io/web/layout/images-at-both-ends.html */
+
+.box_1{
+  margin: 50px 20px 50px auto;
+}
+.box_2{
+  margin: 30px auto;
+}
+.hosting_1-1 h1{
+  font-size: 39px;
+}
+.hosting_1-1 h2{
+  font-size: 27px;
+}
+.hosting_1-1,.hosting_1-2{
+  margin: auto 5%;
+}
+.hosting_1-1 a:hover{
+  color: black;
+}
+
+
+ul.slider_1{
+  padding: 0;
+}
+
+
+.hosting_1-2{
+  height: 450px;
+}
+.hosting_1-2 h1{
+  margin: 40px 0;
+  font-size: 32px;
+}
+.hosting_1-2 p,.hosting_1-2 h2{
+  margin: 20px 0;
+  width: 90%;
+  height: auto;
+}
+.hosting_1-2 a:hover{
+  color: black;
+}
+
+
+ul.slider_2{
+  margin: 100px auto;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.hosting_2-1{
+  margin: auto 5%;
+}
+.hosting_2-1 img{
+  width: 100%;
+  border-radius: 10px;
+}
+.hosting_2-2{
+  margin: auto 5%;
+}
+.hosting_2-2 img{
+  width: 100%;
+}
+
+
+ul.slider_3{
+  margin: 50px 0 100px 0;
+  padding: 0px;
+  width: 100%;
+}
+
+
+.hosting_3-1{
+  margin: auto 5%;
+}
+.hosting_3-1 h1{
+  font-size: 40px;
+}
+.hosting_3-1 li img{
+  width: 322px;
+  height: 200px;
+  border-radius: 10px;
+}
+.hosting_3-1 li h5,.hosting_3-1 li p{
+  width: 322px;
+  margin-top: 15px;
+}
+.hosting_3-1 li a{
+  display: block;
+  position: relative;
+  width: 322px;
+  height: auto;
+  margin: 0 15px;
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+/* aタグ、ブロック要素
+　→参考サイト...https://www.ipentec.com/document/css-atag-padding-margin-tips */
+
+
+.hosting_3-2{
+  margin-left: 5%;
+}
+.hosting_3-2 h1{
+  font-size: 26px;
+}
+.hosting_3-2 li img{
+  width: 184px;
+  height: 114px;
+  margin: 0 15px;
+  border-radius: 10px;
+}
+.hosting_3-2 li h5,.hosting_3-2 li p{
+  width: 184px;
+  margin: 15px 0 0 15px;
+}
+.hosting_3-2 li a{
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+
+.hosting_4-1{
+  margin: auto 0 50px 5%;
+}
+.hosting_4-1 h1{
+  font-size: 40px;
+}
+.hosting_4-1 .box_3{
+  margin: 50px 50px 50px 0;
+}
+.hosting_4-1 a:hover{
+  color: black;
+}
+
+
+.hosting_4-2{
+  margin: auto 0 50px 5%;
+}
+.hosting_4-2 h1{
+  font-size: 26px;
+}
+.hosting_4-2 .box_3{
+  margin: 50px 50px 50px 0;
+}
+.hosting_4-2 a:hover{
+  color: black;
+}
+
+
+.hosting-beginning-img{
+  background-image: url(../img/65bf69a6-91eb-4f66-83f4-79541006c2ce.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  width: auto;
+}
+.hosting-beginning-text{
+  position: relative;
+  margin-left: 5%;
+  top: 200px;
+  color: white;
+}
+.hosting-beginning-text h1{
+  display: block;
+}
+.hosting-beginning-img button{
+  position: relative;
+  margin-left: 5%;
+  top: 210px;
+}
+
+
+.hosting_5-1 .box_4{
+  margin: 100px 10%;
+}
+.hosting_5-1 .box_5{
+  margin: 10% 10% 10% 5%; 
+}
+.hosting_5-1 .form-check{
+  width: 95%;  
+  position: relative;
+  top: 30px;
+  left: 7px;
+}
+.hosting_5-1 input[type="text"]{
+  transform: scale(1.2);
+  width: 80%;
+  position: relative;
+  left: 8%;
+  margin-bottom: 8px;
+}
+.hosting_5-1 input[type="checkbox"]{
+  transform: scale(1.5);
+  position: relative;
+  right: 1%;
+  top: 5px;
+}
+.hosting_5-1 label{
+  position: relative;
+  top: 1px;
+  left: 5px;
+}
+.hosting_5-1 button[type="button"]{
+  transform: scale(1.8);
+  font-family: sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  left: 28px;
+}
+.hosting_5-1 p#agree{
+  width: 95%;
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+footer .box_6{
+  margin: 50px 3%;
+}
+footer .footer_box-1 li{
+  margin: 15px auto;
+}
+footer h6{
+  margin-bottom: 0;
+}
+footer ul li{
+  font-size: 15px;
+  list-style: none;
+}
+
+footer .footer_bottom{
+  margin: 50px 5% 10px 5%;
+  bottom: 15px;
+}
+footer .container-fluid{
+  padding: 0px;
+}
+footer .box_7{
+  margin-bottom: 10px;
+}
+footer .jp-money{
+  margin: 0 20px;
+}
+footer .fb{
+  transform: scale(1.2);
+  margin-left: 40px;
+  margin-right: 10px;
+}
+footer .tw{
+  transform: scale(1.2);
+  margin: 0 10px;
+}
+footer .ig{
+  transform: scale(1.2);
+  margin: 0 10px;
+}
+footer p,footer a{
+  font-size: 13px;
+  margin: 0px;
+}
+footer .box_7 .porl{
+  position: relative;
+  bottom: 4px;
+}

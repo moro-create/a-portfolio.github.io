@@ -1,0 +1,91 @@
+/* ___slick setting___ */
+
+/* slide 枠線 */
+.slick-slide{
+  outline: none;
+}
+/*slick  ← →*/
+.slick-prev:before,
+.slick-next:before {
+  color: rgb(187, 187, 187);
+  font-size: 30px;
+}
+/* ・・・・(ドット button) */
+ul .slick-dots{
+  right: 4px;
+}
+.slick-dots li {
+  margin: 2px;
+  width: 10px;
+}
+
+
+/* ___.slider_1(.hosting_1) css___ */
+
+/* .hosting_1-2 slickのposition,size */
+.hosting_1-2 .slick-list{
+  position: relative;
+  top: 20px;
+}
+/* .hosting_1-2 ・・(ドット button) */
+.hosting_1-2 ul.slick-dots{
+  width: 40px;
+  height: 20px;
+  position: relative;
+  left: -13px;
+  top: 30px;
+}
+
+/* .slick_2(.hosting_2) css */
+
+/* hosting_2-1  ← position */
+.hosting_2-1 .slick-prev {
+  position: absolute;
+  left: -27px;
+  z-index: 1;
+}
+/* hosting_2-1  → position */
+.hosting_2-1 .slick-next {
+  position: absolute;
+  right: -18px;
+  z-index: 1;
+}
+/* z-index: 1;...ボックスの重なりの順序を指定するプロパティ */
+/* .hosting_1-2 ・・(ドット button) */
+.hosting_2-2 ul.slick-dots{
+  width: 80px;
+  height: 20px;
+  position: relative;
+  right: 15px;
+  bottom: 5px;
+}
+
+/* ___.slider_3(.hosting_3) css___ */
+
+/* .hosting_3-1 slick_3 */
+.hosting_3-1 div.slick-track{
+  margin: 0;
+}
+/* .hosting_3-1  ← position */
+.hosting_3-1 .slick-prev {
+  position: absolute;
+  left: -15px;
+  z-index: 1;
+}
+/* .hosting_3-1  → position */
+.hosting_3-1 .slick-next {
+  position: absolute;
+  right: -20px;
+  z-index: 1;
+}
+
+/* ___.slick_1(.hosting_4) css */
+
+/* .hosting_4-2 ・・(ドット button) */
+.hosting_4-2 ul.slick-dots{
+  width: 60px;
+  height: 20px;
+  position: relative;
+  left: -15px;
+  bottom: 30px;
+}
